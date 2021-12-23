@@ -195,6 +195,7 @@ header .buttons-row a {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem 1rem 9.375rem 1rem;
+  height: 25rem;
 }
 
 .section-2 .row {
@@ -202,6 +203,10 @@ header .buttons-row a {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+}
+
+.section-2 .row .column {
+  margin-right: 8.25rem;
 }
 
 .section-2 .row .title {
@@ -212,6 +217,108 @@ header .buttons-row a {
 }
 
 .section-2 .row .description {
+  font-size: 1rem;
+  line-height: 2;
+  color: #27303E;
+}
+
+.section-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1rem 9.375rem 1rem;
+  height: 25rem;
+}
+
+.section-3 .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.section-3 .row .column {
+  margin-left: 8.25rem;
+}
+
+.section-3 .row .title {
+  font-size: 2rem;
+  color: #27303E;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.section-3 .row .description {
+  font-size: 1rem;
+  line-height: 2;
+  color: #27303E;
+}
+
+.section-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1rem 9.375rem 1rem;
+  height: 25rem;
+}
+
+.section-4 .title {
+  font-size: 2rem;
+  color: #27303E;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.section-4 .description {
+  font-size: 1rem;
+  line-height: 2;
+  color: #27303E;
+}
+
+.section-4 .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-4 .row .tariff-card {
+  gap: 1.875;
+  width: 23.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-4 .row .tariff-card .tariff-title {
+  font-size: 2rem;
+  color: #27303E;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.section-4 .row .tariff-card .tariff-description {
   font-size: 1rem;
   line-height: 2;
   color: #27303E;
