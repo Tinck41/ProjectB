@@ -410,8 +410,27 @@ header .buttons-row a {
   margin-bottom: 4.5rem;
 }
 
+.section-5 .row .form-wrapper .agreement-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-5 .row .form-wrapper .agreement-div #agreement-trigger {
+  color: #2F88F0;
+  cursor: pointer;
+}
+
+.section-5 .row .form-wrapper .agreement-div .text {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
 .section-5 .row .form-wrapper .form-button {
-  margin-top: 4rem;
+  margin-top: 0.75rem;
   background: #2F88F0;
   border: none;
   border-radius: 10px;
@@ -608,10 +627,24 @@ footer .row-3 {
 
 .modal .content {
   background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
+  margin: 5% auto;
+  padding: 20px 20px 35px 20px;
   border: 1px solid #888;
-  width: 80%;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.modal .content .title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2F88F0;
+  text-align: center;
+}
+
+.modal .content .text {
+  margin-top: 1rem;
+  padding: 0 20px 0 20px;
+  text-align: justify;
 }
 
 .modal .close {

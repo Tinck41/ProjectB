@@ -19,23 +19,25 @@ let chosenTariff = -1
 const tariffBtn1 = document.getElementById('tariff-btn-1')
 const tariffBtn2 = document.getElementById('tariff-btn-2')
 const tariffBtn3 = document.getElementById('tariff-btn-3')
+const agreementTrigger = document.getElementById('agreement-trigger')
 const formBtn = document.getElementById('form-button')
 const closeBtn = document.getElementById("close-btn")
 const whatsAppBtn = document.getElementById('whatsapp-btn')
 
 tariffBtn1.onclick = async () => {
-    modal.style .display = "block"
     chosenTariff = 0
 }
 
 tariffBtn2.onclick = () => {
-    modal.style .display = "block"
     chosenTariff = 1
 }
 
 tariffBtn3.onclick = () => {
-    modal.style .display = "block"
     chosenTariff = 2
+}
+
+agreementTrigger.onclick = () => {
+    modal.style .display = "block"
 }
 
 formBtn.onclick = async () => {
