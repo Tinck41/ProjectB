@@ -5,7 +5,7 @@ let tariffBtn2 = document.getElementById('tariff-btn-2')
 let tariffBtn3 = document.getElementById('tariff-btn-3')
 let chosenTariff = -1
 
-let closeBtn = document.getElementsById("close-btn")
+let closeBtn = document.getElementById("close-btn")
 
 tariffBtn1.onclick = () => {
     modal.style .display = "block"

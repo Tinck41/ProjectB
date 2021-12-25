@@ -150,8 +150,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem 9.375rem 1rem;
-  height: 25rem;
+  padding: 2rem 1rem 1.5rem 1rem;
 
   .title {
     font-size: 2rem;
@@ -172,10 +171,13 @@ header {
   
     .tariff-card {
       gap: 1.875;
+      border-radius: 10px;
       width: 23.75rem;
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 1.5rem 0;
+      box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.1);
 
       .tariff-title {
         font-size: 2rem;
@@ -187,12 +189,179 @@ header {
       .tariff-description {
         font-size: 1rem;
         line-height: 2;
+        text-align: center;
+        color: $darkColor;
+      }
+
+      .tariff-button {
+        margin-top: 2rem;
+        background: none;
+        border: 1px solid $blueColor;
+        border-radius: 10px;
+        background: none;
+        color: $blueColor;
+        padding: 1rem 3.4rem;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        font-size: 1rem;
+        font-weight: 500;
+
+        &:hover {
+          background: linear-gradient(270deg, #02D1C5 0%, #11BEF4 100%);
+          color: $whiteColor;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7.75rem 1rem;
+  background-color: $webLightSkyColor;
+
+  .row {
+    display: grid;
+    grid-template-columns: 1.53fr 1fr;
+    gap: 8.3rem;
+    
+    .form-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.5rem;
+      box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 2rem;
+      background-color: $whiteColor;
+
+      .title {
+        font-size: 2rem;
+        color: $darkColor;
+        font-weight: 500;
+        margin-bottom: 1.2rem;
+      }
+
+      input {
+        height: 56px;
+        border-radius: 10px;
+        border: 2px solid $grayColor;
+        padding: 1.125rem 1.75rem;
+      }
+
+      :nth-child(4) {
+        margin-bottom: 4.5rem;
+      }
+
+      .form-button {
+        margin-top: 4rem;
+        background: $blueColor;
+        border: none;
+        border-radius: 10px;
+        color: $whiteColor;
+        padding: 1rem 3.75rem;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+    
+    .column {
+      .title {
+        font-size: 2rem;
+        color: $darkColor;
+        font-weight: 500;
+        margin-bottom: 1.2rem;
+      }
+    
+      .description {
+        font-size: 1rem;
+        line-height: 2;
         color: $darkColor;
       }
     }
   }
 }
 
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem 9.375rem 1rem;
+  height: 25rem;
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .column {
+      margin-right: 8.25rem;
+    }
+
+    .title {
+      font-size: 2rem;
+      color: $darkColor;
+      font-weight: 500;
+      margin-bottom: 1.2rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      line-height: 2;
+      color: $darkColor;
+    }
+  }
+}
+
+.section-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7.75rem 0;
+  background-color: $webLightSkyColor;
+
+  .container {
+    display: flex;
+  }
+
+  .form-wrapper {
+    background: $whiteColor;
+    padding: 2rem;
+    align-self: flex-start;
+    box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    .title {
+      font-size: 2rem;
+      color: $darkColor;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    input {
+      height: 56px;
+      border-radius: 10px;
+      border: 2px solid $grayColor;
+      padding: 1.125rem 1.75rem;
+      width: 28.1rem;
+    }
+
+    .form-button {
+      margin-left: 1.5rem;
+      background: $blueColor;
+      border: none;
+      border-radius: 10px;
+      color: $whiteColor;
+      padding: 1rem 3.75rem;
+      align-self: center;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}
 .modal {
   display: none;
   position: fixed;
