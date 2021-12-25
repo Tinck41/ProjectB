@@ -362,6 +362,50 @@ header {
     }
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0 129px 0;
+  background: $darkColor;
+
+  .row-1 {
+    display: flex;
+    font-size: 14px;
+    .column {
+      margin-right: 120px;
+      .title {
+        color: #E1E4E7;
+      }
+      .description {
+        color: $whiteColor;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .row-2 {
+    gap: 30px;
+    margin-top: 52px;
+    display: flex;
+    color: $whiteColor;
+    font-size: 18px;
+    font-weight: 500;
+
+    .item {
+      width: 175px;
+    }
+  }
+
+  .row-3 {
+    margin-top: 48px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
+
 .modal {
   display: none;
   position: fixed;

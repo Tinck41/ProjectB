@@ -536,6 +536,63 @@ header .buttons-row a {
   font-weight: 500;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 64px 0 129px 0;
+  background: #27303E;
+}
+
+footer .row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+footer .row-1 .column {
+  margin-right: 120px;
+}
+
+footer .row-1 .column .title {
+  color: #E1E4E7;
+}
+
+footer .row-1 .column .description {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .row-2 {
+  gap: 30px;
+  margin-top: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .row-2 .item {
+  width: 175px;
+}
+
+footer .row-3 {
+  margin-top: 48px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.2);
+}
+
 .modal {
   display: none;
   position: fixed;
